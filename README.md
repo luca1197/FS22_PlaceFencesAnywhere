@@ -20,4 +20,4 @@ You are still required to have access to the farmland you want to place the fenc
 
 ### Credits
 Fence icon created by Creative Stall Premium - [Flaticon](https://www.flaticon.com/)\
-Mountain icons created by Freepik - [Flaticon](https://www.flaticon.com/)
+Mountain icon created by Freepik - [Flaticon](https://www.flaticon.com/)
