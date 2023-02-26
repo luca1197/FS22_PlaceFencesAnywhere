@@ -1,0 +1,28 @@
+name: Build and release
+
+on:
+  push:
+    tags:
+      - v[0-9]+.*
+  workflow_dispatch:
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v2
+
+      - name: Build
+        run: |
+          sudo apt-get install zip -y
+          cd FS22_PlaceFencesAnywhere
+          zip -r ../FS22_PlaceFencesAnywhere.zip .
+      
+      - name: Release
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            FS22_PlaceFencesAnywhere.zip
