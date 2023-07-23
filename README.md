@@ -22,6 +22,9 @@ These restrictions are disabled by using this mod:
 
 You are still required to have access to the farmland you want to place the fence on. This way, you can safely use this mod in a multiplayer game!
 
+### How does it work?
+Take a look at the comment in the main file [PlaceFencesAnywhere.lua](https://github.com/luca1197/FS22_PlaceFencesAnywhere/blob/main/FS22_PlaceFencesAnywhere/PlaceFencesAnywhere.lua).
+
 ### Credits
 Fence icon created by Creative Stall Premium - [Flaticon](https://www.flaticon.com/)\
 Mountain icon created by Freepik - [Flaticon](https://www.flaticon.com/)
