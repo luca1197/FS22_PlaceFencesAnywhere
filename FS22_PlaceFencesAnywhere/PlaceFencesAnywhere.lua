@@ -5,10 +5,10 @@ PlaceFencesAnywhere = {}
 	doing it this way should make it more compatible with future game updates. The
 	alternative would have been overriding base game functions, which is not ideal.
 	
-	Internally, the game checks whether a face can be place at a position and if the
+	Internally, the game checks whether a fence can be placed at a position and if the
 	"checker"-functions return a non-nil value, an error will be displayed to the user.
 	
-	By setting these error values to nil, the checks will alaways pass.
+	By setting these error values to nil, the checks will always pass.
 	
 	This mod does not remove the restriction of only placing fences on farmland the
 	player has access to by design to allow using this in a multiplayer game safely.
